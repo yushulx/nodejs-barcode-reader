@@ -1,0 +1,1 @@
+# nodejs-barcode-reader
