@@ -1,32 +1,28 @@
 # Node.js Barcode Reader
-Build simple barcode reader apps for desktop and web using Node.js.
+Build simple Node.js barcode reader apps for desktop and web.
 
-## What You Should Know
+## Barcode SDK Installation and Activation
 - [![](https://img.shields.io/badge/Download-Offline%20SDK-orange)](https://www.dynamsoft.com/barcode-reader/downloads)
 - [![](https://img.shields.io/badge/Get-30--day%20FREE%20Trial%20License-blue)](https://www.dynamsoft.com/customer/license/trialLicense/?product=dbr)
 
-## Installation
-- OpenCV
+## Prerequisites
+Follow the tutorial of [opencv4nodejs](https://www.npmjs.com/package/opencv4nodejs) to install OpenCV.
 
-    ```
-    npm install opencv4nodejs
-    ```
+## Install Dependencies
 
-- Dynamsoft Barcode Reader SDK
-
-    ```
-    npm install barcode4nodejs
-    ```
+```bash
+npm install
+```
 
 ## Usage
 
-Get a [free trial license](https://www.dynamsoft.com/CustomerPortal/Portal/Triallicense.aspx) and update the following line:
+Get a [free trial license](https://www.dynamsoft.com/customer/license/trialLicense?product=dbr) and update the following line:
 
 ```js
 dbr.initLicense("LICENSE-KEY")
 ```
 
-### Desktop
+### Desktop Barcode Reader
 
 Run the app:
 
@@ -36,7 +32,7 @@ node desktop.js
 
 ![desktop barcode reader](https://www.dynamsoft.com/codepool/wp-content/uploads/2020/07/nodejs-barcode-opencv-webcam.png)
 
-### Web
+### Web Barcode Reader
 
 Run the web server:
 

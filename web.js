@@ -4,14 +4,13 @@ const cv = require('opencv4nodejs');
 const dbr = require('barcode4nodejs');
 dbr.initLicense("LICENSE-KEY")
 barcodeTypes = dbr.barcodeTypes
-const vCap = new cv.VideoCapture(0);
 const drawParams = { color: new cv.Vec(0, 255, 0), thickness: 2 }
 const fontFace = cv.FONT_HERSHEY_SIMPLEX;
 const fontScale = 0.5;
 const textColor = new cv.Vec(255, 0, 0);
 const thickness = 2;
 
-const wCap = new cv.VideoCapture(1);
+const wCap = new cv.VideoCapture(0);
 wCap.set(cv.CAP_PROP_FRAME_WIDTH, 320);
 wCap.set(cv.CAP_PROP_FRAME_HEIGHT, 240);
 
