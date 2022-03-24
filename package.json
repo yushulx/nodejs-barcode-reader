@@ -6,7 +6,7 @@
   "author": "yushulx",
   "license": "MIT",
   "dependencies": {
-    "barcode4nodejs": "^8.8.0",
+    "barcode4nodejs": "^9.0.0",
     "opencv4nodejs": "^5.6.0"
   },
   "opencv4nodejs": {

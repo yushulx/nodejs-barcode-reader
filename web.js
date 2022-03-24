@@ -2,7 +2,8 @@
 const http = require('http'); 
 const cv = require('opencv4nodejs');
 const dbr = require('barcode4nodejs');
-dbr.initLicense("LICENSE-KEY")
+// Get a license key from https://www.dynamsoft.com/customer/license/trialLicense?product=dbr
+dbr.initLicense("LICENSE-KEY");
 barcodeTypes = dbr.barcodeTypes
 const drawParams = { color: new cv.Vec(0, 255, 0), thickness: 2 }
 const fontFace = cv.FONT_HERSHEY_SIMPLEX;

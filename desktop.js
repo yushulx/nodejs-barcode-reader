@@ -1,6 +1,7 @@
 const dbr = require('barcode4nodejs');
 const cv = require('opencv4nodejs');
-dbr.initLicense("LICENSE-KEY")
+// Get a license key from https://www.dynamsoft.com/customer/license/trialLicense?product=dbr
+dbr.initLicense("LICENSE-KEY");
 barcodeTypes = dbr.barcodeTypes
 const vCap = new cv.VideoCapture(0);
 const drawParams = { color: new cv.Vec(0, 255, 0), thickness: 2 }

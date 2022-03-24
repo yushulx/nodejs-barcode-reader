@@ -1,45 +1,41 @@
-# Node.js Barcode Reader
-Build simple Node.js barcode reader apps for desktop and web.
+# Node.js Barcode and QR Code Reader for Desktop and Web
+Build simple Node.js barcode reader apps for desktop and web using [barcode4nodejs](https://www.npmjs.com/package/barcode4nodejs) (which is based on [Dynamsoft Barcode Reader C++ SDK](https://www.dynamsoft.com/barcode-reader/overview/)) and [opencv4nodejs](https://www.npmjs.com/package/opencv4nodejs).
 
-## Barcode SDK Installation and Activation
-- [![](https://img.shields.io/badge/Download-Offline%20SDK-orange)](https://www.dynamsoft.com/barcode-reader/downloads)
-- [![](https://img.shields.io/badge/Get-30--day%20FREE%20Trial%20License-blue)](https://www.dynamsoft.com/customer/license/trialLicense/?product=dbr)
+## SDK Version
+[v9.0](https://www.dynamsoft.com/barcode-reader/downloads)
 
-## Prerequisites
-Follow the tutorial of [opencv4nodejs](https://www.npmjs.com/package/opencv4nodejs) to install OpenCV.
+## License Key for SDK
+[![](https://img.shields.io/badge/Get-30--day%20FREE%20Trial-blue)](https://www.dynamsoft.com/customer/license/trialLicense/?product=dbr)
 
-## Install Dependencies
+## Installation
 
 ```bash
-npm install
+npm install opencv4nodejs barcode4nodejs
 ```
 
 ## Usage
 
-Get a [free trial license](https://www.dynamsoft.com/customer/license/trialLicense?product=dbr) and update the following line:
+### Setting License Key
+Set the license key in the `desktop.js` and `web.js` files:
 
 ```js
 dbr.initLicense("LICENSE-KEY")
 ```
 
-### Desktop Barcode Reader
-
-Run the app:
+### Node.js Desktop App
+Run the desktop barcode and QR code scanning app in node.js:
 
 ```
 node desktop.js
 ```
 
-![desktop barcode reader](https://www.dynamsoft.com/codepool/wp-content/uploads/2020/07/nodejs-barcode-opencv-webcam.png)
+![desktop barcode and QR code reader](https://www.dynamsoft.com/codepool/wp-content/uploads/2020/07/nodejs-barcode-opencv-webcam.png)
 
-### Web Barcode Reader
-
-Run the web server:
+### Node.js Web App
+To scan barcode and QR code in any web browser, start the web server and then visit `localhost:2020`:
 
 ```
 node web.js
 ```
 
-Visit `localhost:2020` from a web browser.
-
-![reading barcodes in Microsoft Internet Explorer](https://www.dynamsoft.com/codepool/wp-content/uploads/2020/07/opencv-nodejs-barcode-web.png)
+![reading barcode and QR code in Microsoft Internet Explorer](https://www.dynamsoft.com/codepool/wp-content/uploads/2020/07/opencv-nodejs-barcode-web.png)
