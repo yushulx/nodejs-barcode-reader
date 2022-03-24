@@ -39,3 +39,6 @@ node web.js
 ```
 
 ![reading barcode and QR code in Microsoft Internet Explorer](https://www.dynamsoft.com/codepool/wp-content/uploads/2020/07/opencv-nodejs-barcode-web.png)
+
+## Blog
+[Node.js Barcode Reader for Desktop and Web](https://www.dynamsoft.com/codepool/node-js-barcode-reader-for-desktop-and-web.html)
